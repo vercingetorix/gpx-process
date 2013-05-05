@@ -23,6 +23,9 @@ var utils = {
 	// 		}
 	// 	});
 	// },
+	round: function(number, decimals) {
+		return Math.round( number * Math.pow(10, decimals) ) / Math.pow(10, decimals);
+	},
 	md5: function(s) {
 		function md5cycle(x, k) {
 			var a = x[0], b = x[1], c = x[2], d = x[3];
