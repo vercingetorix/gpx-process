@@ -1,0 +1,15 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.0",
+    "jade": "*",
+    "xml2js": "0.4.2",
+    "moment": "2.0.0",
+    "underscore": "1.4.4"
+  }
+}
