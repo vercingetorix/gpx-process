@@ -8,7 +8,7 @@
   "dependencies": {
     "express": "4.17.1",
     "moment": "2.24.0",
-    "underscore": "1.10.2",
+    "underscore": "1.12.1",
     "xml2js": "0.4.23"
   },
   "devDependencies": {
